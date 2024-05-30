@@ -35,6 +35,20 @@ int main()
             }
         }
     }
+    
+    for (int b = 1000; b > 0; b--)
+    {
+        for (int a = 998; a > 0; a--)
+        {
+            if(a<b)
+                break;
+            c = 1000 - a - b;
+            if (check_triplet(a, b,c))
+            {
+                cout << a*b*c;
+            }
+        }
+    }
 
 
     return 0;
