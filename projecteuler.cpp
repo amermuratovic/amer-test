@@ -22,6 +22,7 @@ int main()
     // int b=2;
     int c = 0;
 
+
     for (int b = 1000; b > 0; b--)
     {
         for (int a = 998; a > 0; a--)
